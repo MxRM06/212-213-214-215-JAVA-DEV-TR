@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Batch210DT" />
+        <module name="212-213-214-215-JAVA-DEV-TR" />
         <module name="Batch210NT" />
-        <module name="JdbcInstructionDt" />
-        <module name="JdbcInstructionNt" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JdbcInstructionDt" target="11" />
+      <module name="JdbcInstructionNt" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
